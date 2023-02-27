@@ -1,0 +1,53 @@
+div img{
+    width: 50rem;
+    height: 50rem;
+    border: 3px solid brown;
+   
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: brown;
+}
+li{
+    display: flexbox;
+    color: brown;
+    list-style-type:disc;
+    font-size: large;
+    line-height: 2em;
+}
+h3{
+    display: flexbox;
+    color: brown;
+    list-style-type:disc;
+    font-size: large;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    color: red;
+    background-color: chocolate;
+    padding: 10px;
+    border: 0px solid chocolate;
+    border-radius: 10%;
+}
+.btn button a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+
+}
+.btn button a:hover{
+    color: red;
+}
+.btn button a:active{
+    color: orange;
+}
